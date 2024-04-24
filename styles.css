@@ -1,0 +1,37 @@
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(21, 74, 74);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+nav .logo img {
+    width: 60px;
+    height: auto; /* Ensures logo image retains its aspect ratio */
+}
+
+.navbar {
+    display: flex;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: ease 0.40s;
+}
+
+.navbar a:hover, .navbar a.active {
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+}
