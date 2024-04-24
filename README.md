@@ -1,4 +1,4 @@
-# paiSol-Task-1
+# PAISOL-Task-1
 Header Section
 Create a header section containing the logo of the
 travel booking website and a navigation menu with links to different
